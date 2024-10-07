@@ -1,0 +1,151 @@
+#video {
+  padding-top: 6rem;
+}
+
+section {
+  padding-top: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Inspiration", cursive;
+  font-size: xx-large;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#navbar,
+#footer,
+#button {
+  background-color: #680909;
+}
+
+.caption {
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  position: relative;
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption p {
+  font-size: 5rem;
+  font-family: "Inspiration", cursive;
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+  font-size: 10pt;
+}
+
+.card .card .row .card .col-md-6 {
+  height: 100%;
+}
+
+.card img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+#galeri .card {
+  overflow: hidden;
+}
+
+#galeri .card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+#galeri .card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+#galeri .card-img-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+#galeri .card-title {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#button {
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  iframe {
+    height: 30rem;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: azure;
+  }
+  iframe {
+    height: 30rem;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    text-align: center;
+  }
+  iframe {
+    height: 100%;
+    width: auto;
+    justify-content: center;
+  }
+
+  #navbar,
+  #footer,
+  #button {
+    background-color: black;
+  }
+
+  #ytcaption,
+  h2,
+  label {
+    color: white;
+  }
+}
